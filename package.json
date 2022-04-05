@@ -1,0 +1,11 @@
+{
+  "name": "expo project with authorization on firebase and chat on websocket",
+  "scripts": {
+    "dev:client": "npm run start --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\""
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
